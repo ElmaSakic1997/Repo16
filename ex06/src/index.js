@@ -9,7 +9,5 @@ function lastName (lastName) {
 console.log(firstName("Elma"));
 console.log(lastName("Sakic"));
 
-module.exports = {
-    firstName,
-    lastName
-}
+exports.firstName = firstName;
+exports.lastName = lastName;
